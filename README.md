@@ -86,4 +86,8 @@ Nest is [MIT licensed](LICENSE).
 2. 2.  ProductModule
 2. 3.  ReviewModule
 2. 4.  TopPageModule
-
+3. Generation of model as a class for each Module command: nest g class product/product.model --no-spec
+3. 1.  auth.model > nest g class auth/auth.model --no-spec
+3. 2.  product.model > nest g class product/product.model --no-spec
+3. 3.  review.model > nest g class review/review.model --no-spec
+3. 4.  top-page.model > nest g class top-page/top-page.model --no-spec
