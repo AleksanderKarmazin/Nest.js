@@ -91,3 +91,9 @@ Nest is [MIT licensed](LICENSE).
 3. 2.  product.model > nest g class product/product.model --no-spec
 3. 3.  review.model > nest g class review/review.model --no-spec
 3. 4.  top-page.model > nest g class top-page/top-page.model --no-spec
+4. Set Global prefix for api 
+5. Generation of controlers command: nest g controller 
+5. 1.  auth > nest g controller auth --no-spec
+5. 2.  product > nest g controller product --no-spec
+5. 3.  review > nest g controller review --no-spec
+5. 4.  top-page > nest g controller top-page --no-spec
