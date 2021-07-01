@@ -77,3 +77,13 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Steps
+
+1. npm i tslint -D 
+2. Module`s generation command: nest g module Auth
+2. 1.  AuthModule
+2. 2.  ProductModule
+2. 3.  ReviewModule
+2. 4.  TopPageModule
+

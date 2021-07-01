@@ -6,17 +6,17 @@ describe('AppController', () => {
   let appController: AppController;
 
   beforeEach(async () => {
-    const app: TestingModule = await Test.createTestingModule({
-      controllers: [AppController],
-      providers: [AppService],
-    }).compile();
+	const app: TestingModule = await Test.createTestingModule({
+		controllers: [AppController],
+		providers: [AppService],
+	}).compile();
 
-    appController = app.get<AppController>(AppController);
+	appController = app.get<AppController>(AppController);
   });
 
   describe('root', () => {
-    it('should return "Hi, Sasha! This is Nest ! "', () => {
-      expect(appController.getHello()).toBe('Hi, Sasha! This is Nest ! ');
-    });
+	it('should return "Hi, Sasha! This is Nest ! "', () => {
+		expect(appController.getHello()).toBe('Hi, Sasha! This is Nest ! ');
+	});
   });
 });
