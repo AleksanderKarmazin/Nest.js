@@ -25,5 +25,6 @@ export class TopPageModel {
         description:string;
     }[];
     seoText:string;
+    tegsTitle:string;
     tegs:string[];
 }
