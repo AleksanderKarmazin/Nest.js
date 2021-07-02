@@ -97,3 +97,18 @@ Nest is [MIT licensed](LICENSE).
 5. 2.  product > nest g controller product --no-spec
 5. 3.  review > nest g controller review --no-spec
 5. 4.  top-page > nest g controller top-page --no-spec
+6. Varaibles of enviroment set up 
+6. 1. npm i --save @nestjs/config
+6. 2. How create CRUD >  nest g resource test
+7. Typegoose set up (MONGO DB in TypeScript)
+7. 0. https://github.com/kpfromer/nestjs-typegoose
+7. 1. npm install --save @typegoose/typegoose mongoose nestjs-typegoose 
+7. 2. DEV DEPENDANCIS  dev dependencies > npm install  -D @types/mongoose
+7. 3. Adaptin model for Typegoose 
+8. Creating services  > nest g service SerName
+8. 1.  auth > nest g service auth 
+8. 2.  product > nest g service product 
+8. 3.  review > nest g service review 
+8. 4.  top-page > nest g service top-page 
+9. npm i --save-dev @types/mongoose
+
